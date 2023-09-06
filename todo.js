@@ -33,10 +33,10 @@ function toggleTask(taskId) {
     const currentTask = task[0];
     currentTask.done = !currentTask.done;
     renderList();
-    showNotification("Task toggled successfully");
+    // showNotification("Task toggled successfully");
     return;
   }
-  showNotification("Could not toggle the task");
+  // showNotification("Could not toggle the task");
 }
 
 function deleteTask(taskId) {
